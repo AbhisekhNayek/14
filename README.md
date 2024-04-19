@@ -21,7 +21,7 @@ I'm Abhisekh Nayek, a passionate Full-Stack Developer based in Midnapore, India.
 
 Feel free to reach out to me if you have any inquiries, project ideas, or just want to connect!
 
-- Portfolio Website: [abhisekhnayek14.github.io](https://abhisekhnayek14.github.io)
+- Portfolio Website: [abhisekhnayek14.github.io](https://abhisekhnayek.github.io/14/)
 - LinkedIn: [Abhisekh Nayek]
 - GitHub: [AbhisekhNayek](https://github.com/AbhisekhNayek)
 - Email: [abhisekhnayek1@gmail.com](mailto:abhisekhnayek1@gmail.com)
