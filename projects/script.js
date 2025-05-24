@@ -1,11 +1,10 @@
+// jQuery: Toggle menu and scroll effects
 $(document).ready(function () {
-    // Toggle menu
     $('#menu').click(function () {
         $(this).toggleClass('fa-times');
         $('.navbar').toggleClass('nav-toggle');
     });
 
-    // Scroll effects
     $(window).on('scroll load', function () {
         $('#menu').removeClass('fa-times');
         $('.navbar').removeClass('nav-toggle');
@@ -18,7 +17,7 @@ $(document).ready(function () {
     });
 });
 
-// Tab visibility change behavior
+// Tab visibility title and favicon change
 document.addEventListener('visibilitychange', function () {
     if (document.visibilityState === "visible") {
         document.title = "Projects | Portfolio Abhisekh Nayek";
@@ -29,23 +28,56 @@ document.addEventListener('visibilitychange', function () {
     }
 });
 
-// Fetch projects from JSON
+// Set dynamic image path based on current file
+const imageBasePath = window.location.pathname.includes('/projects/')
+    ? "../assets/images/projects/"
+    : "assets/images/projects/";
+
+// Load project JSON data
 function getProjects() {
-    return fetch("projects.json")
+    const jsonPath = window.location.pathname.includes('/projects/')
+        ? "projects.json"
+        : "projects/projects.json";
+
+    return fetch(jsonPath)
         .then(response => response.json())
         .then(data => data);
 }
 
-// Display project cards
+// Render simple project cards
+function renderProjects(projects, imageBasePath) {
+    const container = document.getElementById("projects-container");
+    if (!container) return;
+
+    container.innerHTML = "";
+
+    projects.forEach((project) => {
+        const card = document.createElement("div");
+        card.className = "project-card";
+
+        card.innerHTML = `
+          <img draggable="false" src="${imageBasePath + project.image}" alt="project" />
+          <h3>${project.title}</h3>
+          <p>${project.description}</p>
+          <a href="${project.link}" target="_blank">View Project</a>
+        `;
+
+        container.appendChild(card);
+    });
+}
+
+// Render isotope grid layout
 function showProjects(projects) {
     const projectsContainer = document.querySelector(".work .box-container");
+    if (!projectsContainer) return;
+
     let projectsHTML = "";
 
     projects.forEach(project => {
         projectsHTML += `
         <div class="grid-item ${project.category}">
             <div class="box tilt" style="width: 380px; margin: 1rem">
-                <img draggable="false" src="${project.image}" alt="project" />
+                <img draggable="false" src="${imageBasePath + project.image}" alt="project" />
                 <div class="content">
                     <div class="tag">
                         <h3>${project.name}</h3>
@@ -68,13 +100,11 @@ function showProjects(projects) {
 
     projectsContainer.innerHTML = projectsHTML;
 
-    // Initialize isotope
+    // Init Isotope
     const $grid = $('.box-container').isotope({
         itemSelector: '.grid-item',
         layoutMode: 'fitRows',
-        masonry: {
-            columnWidth: 200
-        }
+        masonry: { columnWidth: 200 }
     });
 
     // Filter buttons
@@ -86,10 +116,13 @@ function showProjects(projects) {
     });
 }
 
-// Load and render projects
-getProjects().then(showProjects);
+// Load & display projects dynamically
+getProjects().then(projects => {
+    renderProjects(projects, imageBasePath);
+    showProjects(projects); // Only works if isotope container exists
+});
 
-// Tawk.to Live Chat integration
+// Tawk.to Live Chat
 var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 (function () {
     const s1 = document.createElement("script");
@@ -101,7 +134,7 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
     s0.parentNode.insertBefore(s1, s0);
 })();
 
-// Disable developer shortcuts
+// Disable dev tools shortcuts
 document.onkeydown = function (e) {
     if (
         e.keyCode === 123 || // F12

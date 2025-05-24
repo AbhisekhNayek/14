@@ -2,7 +2,7 @@
   {
     "name": "HackerRank Astra Human + AI",
     "desc": "Open Source contribution focused on JavaScript and Testing.",
-    "image": "../assets/images/projects/hackerrankastra.png",
+    "image": "hackerrankastra.png",
     "category": "opensource",
     "links": {
       "view": "https://www.linkedin.com/posts/abhisekhnayek1755_hackerrankastra-javascript-codingchallenge-activity-7331707667977043968-tLix?utm_source=share&utm_medium=member_desktop&rcm=ACoAADjFfhMBwLyerBhHuxx4GXUVOFGh1p3yeLo",
@@ -12,7 +12,7 @@
   {
     "name": "Blogify",
     "desc": "Top-performing MERN stack project in Code Circuit Hackathon.",
-    "image": "../assets/images/projects/blogify.png",
+    "image": "blogify.png",
     "category": "hackathon",
     "links": {
       "view": "https://blog-sooty-gamma-37.vercel.app/",
@@ -22,7 +22,7 @@
   {
     "name": "Concrete Crack Segmentation",
     "desc": "Implemented histogram-based clustering and morphological operations for crack detection. Associated with Midnapore College.",
-    "image": "../assets/images/projects/concretecrack.png",
+    "image": "concretecrack.png",
     "category": "ml",
     "links": {
       "view": "https://link.springer.com/chapter/10.1007/978-3-031-22485-0_28",
@@ -32,7 +32,7 @@
   {
     "name": "My Portfolio",
     "desc": "Personal portfolio website built with HTML, CSS3, JavaScript, and Framer Motion.",
-    "image": "../assets/images/projects/portfolio.png",
+    "image": "portfolio.png",
     "category": "frontend",
     "links": {
       "view": "https://portfolio-alpha-six-16.vercel.app/",
@@ -42,7 +42,7 @@
   {
     "name": "Remedi",
     "desc": "Medicine reminder app developed with React Native, TypeScript, Async Storage, and Expo CLI.",
-    "image": "../assets/images/projects/remedi.png",
+    "image": "remedi.png",
     "category": "mobile",
     "links": {
       "view": "https://github.com/AbhisekhNayek/Remedi",
@@ -52,7 +52,7 @@
   {
     "name": "StuMate",
     "desc": "University Placement Management System built using the MERN stack. Associated with University of North Bengal.",
-    "image": "../assets/images/projects/stumate.png",
+    "image": "stumate.png",
     "category": "mern",
     "links": {
       "view": "https://stu-mate-placement-management-system.vercel.app/",
@@ -62,7 +62,7 @@
   {
     "name": "Whisper Line",
     "desc": "Anonymous crime reporting app developed using TypeScript, Next.js, MongoDB, Prisma ORM, and integrated with Google Gemini.",
-    "image": "../assets/images/projects/whisperline.png",
+    "image": "whisperline.png",
     "category": "fullstack",
     "links": {
       "view": "#",
@@ -72,7 +72,7 @@
   {
     "name": "Spotify Talk",
     "desc": "🎵 A full-stack music streaming platform with real-time chat, admin control, and live user tracking.",
-    "image": "../assets/images/projects/spotifytalk.png",
+    "image": "spotifytalk.png",
     "category": "fullstack",
     "links": {
       "view": "https://github.com/AbhisekhNayek/SpotifyTalk",
@@ -82,7 +82,7 @@
   {
     "name": "User Management System",
     "desc": "🧑‍💻 A powerful and intuitive platform for managing users with various roles and permissions. Admins can add, edit, and monitor user statuses with ease.",
-    "image": "../assets/images/projects/user-management.png",
+    "image": "user-management.png",
     "category": "fullstack",
     "links": {
       "view": "https://user-management-system-ui.vercel.app/",
