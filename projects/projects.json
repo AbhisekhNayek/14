@@ -2,71 +2,91 @@
   {
     "name": "HackerRank Astra Human + AI",
     "desc": "Open Source contribution focused on JavaScript and Testing.",
-    "image": "hackerrankastra",
+    "image": "../assets/images/projects/hackerrankastra.png",
     "category": "opensource",
     "links": {
-      "view": "#",
+      "view": "https://www.linkedin.com/posts/abhisekhnayek1755_hackerrankastra-javascript-codingchallenge-activity-7331707667977043968-tLix?utm_source=share&utm_medium=member_desktop&rcm=ACoAADjFfhMBwLyerBhHuxx4GXUVOFGh1p3yeLo",
       "code": "#"
     }
   },
   {
     "name": "Blogify",
     "desc": "Top-performing MERN stack project in Code Circuit Hackathon.",
-    "image": "blogify",
+    "image": "../assets/images/projects/blogify.png",
     "category": "hackathon",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://blog-sooty-gamma-37.vercel.app/",
+      "code": "https://github.com/AbhisekhNayek/Blog"
     }
   },
   {
     "name": "Concrete Crack Segmentation",
     "desc": "Implemented histogram-based clustering and morphological operations for crack detection. Associated with Midnapore College.",
-    "image": "concretecrack",
+    "image": "../assets/images/projects/concretecrack.png",
     "category": "ml",
     "links": {
-      "view": "#",
+      "view": "https://link.springer.com/chapter/10.1007/978-3-031-22485-0_28",
       "code": "#"
     }
   },
   {
     "name": "My Portfolio",
     "desc": "Personal portfolio website built with HTML, CSS3, JavaScript, and Framer Motion.",
-    "image": "portfolio",
+    "image": "../assets/images/projects/portfolio.png",
     "category": "frontend",
     "links": {
-      "view": "#",
+      "view": "https://portfolio-alpha-six-16.vercel.app/",
       "code": "#"
     }
   },
   {
     "name": "Remedi",
     "desc": "Medicine reminder app developed with React Native, TypeScript, Async Storage, and Expo CLI.",
-    "image": "remedi",
+    "image": "../assets/images/projects/remedi.png",
     "category": "mobile",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://github.com/AbhisekhNayek/Remedi",
+      "code": "https://github.com/AbhisekhNayek/Remedi"
     }
   },
   {
     "name": "StuMate",
     "desc": "University Placement Management System built using the MERN stack. Associated with University of North Bengal.",
-    "image": "stumate",
+    "image": "../assets/images/projects/stumate.png",
     "category": "mern",
     "links": {
-      "view": "#",
-      "code": "#"
+      "view": "https://stu-mate-placement-management-system.vercel.app/",
+      "code": "https://github.com/AbhisekhNayek/StuMate-Placement-Management-System"
     }
   },
   {
     "name": "Whisper Line",
     "desc": "Anonymous crime reporting app developed using TypeScript, Next.js, MongoDB, Prisma ORM, and integrated with Google Gemini.",
-    "image": "whisperline",
+    "image": "../assets/images/projects/whisperline.png",
     "category": "fullstack",
     "links": {
       "view": "#",
-      "code": "#"
+      "code": "https://github.com/AbhisekhNayek/Whisper-Line"
+    }
+  },
+  {
+    "name": "Spotify Talk",
+    "desc": "🎵 A full-stack music streaming platform with real-time chat, admin control, and live user tracking.",
+    "image": "../assets/images/projects/spotifytalk.png",
+    "category": "fullstack",
+    "links": {
+      "view": "https://github.com/AbhisekhNayek/SpotifyTalk",
+      "code": "https://github.com/AbhisekhNayek/SpotifyTalk"
+    }
+  },
+  {
+    "name": "User Management System",
+    "desc": "🧑‍💻 A powerful and intuitive platform for managing users with various roles and permissions. Admins can add, edit, and monitor user statuses with ease.",
+    "image": "../assets/images/projects/user-management.png",
+    "category": "fullstack",
+    "links": {
+      "view": "https://user-management-system-ui.vercel.app/",
+      "code": "https://github.com/AbhisekhNayek/User-Management-System-UI"
     }
   }
 ]
