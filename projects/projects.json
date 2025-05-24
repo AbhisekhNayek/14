@@ -1,89 +1,69 @@
 [
   {
-    "name": "The Coca-Cola Company",
-    "desc": " ",
-    "image": "cocacola",
-    "category": "basicweb",
+    "name": "HackerRank Astra Human + AI",
+    "desc": "Open Source contribution focused on JavaScript and Testing.",
+    "image": "hackerrankastra",
+    "category": "opensource",
     "links": {
       "view": "#",
       "code": "#"
     }
   },
   {
-    "name": "Portfolio Website",
-    "desc": " ",
-    "image": "geeks",
-    "category": "basicweb",
+    "name": "Blogify",
+    "desc": "Top-performing MERN stack project in Code Circuit Hackathon.",
+    "image": "blogify",
+    "category": "hackathon",
     "links": {
       "view": "#",
       "code": "#"
     }
   },
   {
-    "name": "Temparature Converter",
-    "desc": "",
-    "image": "temprature",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Music Player",
-    "desc": "",
-    "image": "musicplayer",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Online Quizer",
-    "desc": "",
-    "image": "quiz",
-    "category": "basicweb",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "ATM Service",
-    "desc": " ",
-    "image": "atm",
-    "category": "java",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Online Exam System",
-    "desc": " ",
-    "image": "exam",
-    "category": "java",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Flight Reservation",
-    "desc": "",
-    "image": "flight",
-    "category": "cpp",
-    "links": {
-      "view": "#",
-      "code": "#"
-    }
-  },
-  {
-    "name": "Credit Crad Fraud Detector",
-    "desc": "",
-    "image": "credit",
+    "name": "Concrete Crack Segmentation",
+    "desc": "Implemented histogram-based clustering and morphological operations for crack detection. Associated with Midnapore College.",
+    "image": "concretecrack",
     "category": "ml",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "My Portfolio",
+    "desc": "Personal portfolio website built with HTML, CSS3, JavaScript, and Framer Motion.",
+    "image": "portfolio",
+    "category": "frontend",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Remedi",
+    "desc": "Medicine reminder app developed with React Native, TypeScript, Async Storage, and Expo CLI.",
+    "image": "remedi",
+    "category": "mobile",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "StuMate",
+    "desc": "University Placement Management System built using the MERN stack. Associated with University of North Bengal.",
+    "image": "stumate",
+    "category": "mern",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Whisper Line",
+    "desc": "Anonymous crime reporting app developed using TypeScript, Next.js, MongoDB, Prisma ORM, and integrated with Google Gemini.",
+    "image": "whisperline",
+    "category": "fullstack",
     "links": {
       "view": "#",
       "code": "#"
