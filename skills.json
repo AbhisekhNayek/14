@@ -118,5 +118,29 @@
     {
         "name": "Kali Linux",
         "icon": "https://img.icons8.com/color/48/000000/kali-linux.png"
+    },
+    {
+        "name": "Docker",
+        "icon": "https://img.icons8.com/color/48/000000/docker.png"
+    },
+    {
+        "name": "Kubernetes",
+        "icon": "https://img.icons8.com/color/48/000000/kubernetes.png"
+    },
+    {
+        "name": "Reddis",
+        "icon": "https://img.icons8.com/color/48/000000/redis.png"
+    },
+    {
+        "name": "EJS",
+        "icon": "https://img.icons8.com/color/48/000000/ejs.png"
+    },
+    {
+        "name": "Open CV",
+        "icon": "https://img.icons8.com/color/48/000000/opencv.png"
+    },
+    {
+        "name": "Git",
+        "icon": "https://img.icons8.com/color/48/000000/git.png"
     }
 ]
